@@ -1316,13 +1316,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 2ef5cccbf9af996448903a637411876a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1046758450}
   m_SourcePrefab: {fileID: 100100000, guid: 2ef5cccbf9af996448903a637411876a, type: 3}
 --- !u!4 &387773639 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4895497590064792, guid: 288b229db858c114299d1bf70ffc95cd, type: 3}
   m_PrefabInstance: {fileID: 1913895773}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &391759695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
+  m_PrefabInstance: {fileID: 1297723813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &391759699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391759695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 0
+  projectileCount: 0
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 6
+  projectileLifetime: 0
+  projectileImpactRadius: 0
+  bossViewDistance: 0
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!1 &426220406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,7 +1856,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 7b076f4bc078820418c69918ad1d12e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1786281363}
   m_SourcePrefab: {fileID: 100100000, guid: 7b076f4bc078820418c69918ad1d12e8, type: 3}
 --- !u!1001 &450202384
 PrefabInstance:
@@ -3623,6 +3657,34 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &790248710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
+  m_PrefabInstance: {fileID: 1319507953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &790248714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790248710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 0
+  projectileCount: 0
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 6
+  projectileLifetime: 0
+  projectileImpactRadius: 0
+  bossViewDistance: 0
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!1001 &847370347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3756,7 +3818,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 4961a98492915344fad8693ff35cc1e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1775576450}
   m_SourcePrefab: {fileID: 100100000, guid: 4961a98492915344fad8693ff35cc1e8, type: 3}
 --- !u!1 &924195830 stripped
 GameObject:
@@ -4056,6 +4121,34 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5613243e699c34046bcf679855532f68, type: 3}
+--- !u!1 &1046758446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2ef5cccbf9af996448903a637411876a, type: 3}
+  m_PrefabInstance: {fileID: 358129096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1046758450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046758446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 1
+  projectileCount: 1
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 1
+  projectileLifetime: 0.1
+  projectileImpactRadius: 50
+  bossViewDistance: 2
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!43 &1059050755
 Mesh:
   m_ObjectHideFlags: 0
@@ -5279,7 +5372,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 391759699}
   m_SourcePrefab: {fileID: 100100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
 --- !u!1001 &1308278356
 PrefabInstance:
@@ -5439,8 +5535,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 790248714}
   m_SourcePrefab: {fileID: 100100000, guid: 6c66e7ddb4e3bf94e8581dbdbd34d601, type: 3}
+--- !u!1 &1346630844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 40ec2e2d4a4457448aef97450f4f9113, type: 3}
+  m_PrefabInstance: {fileID: 1930775531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346630848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346630844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 0
+  projectileCount: 0
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 6
+  projectileLifetime: 0
+  projectileImpactRadius: 0
+  bossViewDistance: 0
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!4 &1430938329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4895497590064792, guid: 288b229db858c114299d1bf70ffc95cd, type: 3}
@@ -6366,6 +6493,34 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5613243e699c34046bcf679855532f68, type: 3}
+--- !u!1 &1775576446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 4961a98492915344fad8693ff35cc1e8, type: 3}
+  m_PrefabInstance: {fileID: 868098492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775576450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775576446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 0
+  projectileCount: 0
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 6
+  projectileLifetime: 0
+  projectileImpactRadius: 0
+  bossViewDistance: 0
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!1 &1781804408
 GameObject:
   m_ObjectHideFlags: 0
@@ -6805,6 +6960,34 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1786281359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7b076f4bc078820418c69918ad1d12e8, type: 3}
+  m_PrefabInstance: {fileID: 431500346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1786281363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786281359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ac9a426cfc6a949b0367bcb233b3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 1083012886}
+  projectileCooldown: 0
+  projectileCount: 0
+  fireCooldown: 0
+  canFire: 1
+  projectileSpeed: 6
+  projectileLifetime: 0
+  projectileImpactRadius: 0
+  bossViewDistance: 0
+  projectilePrefab: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
+  turnSpeed: 0
 --- !u!1001 &1787329738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7163,7 +7346,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 40ec2e2d4a4457448aef97450f4f9113, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346630848}
   m_SourcePrefab: {fileID: 100100000, guid: 40ec2e2d4a4457448aef97450f4f9113, type: 3}
 --- !u!1001 &1930964365
 PrefabInstance:
@@ -7180,6 +7366,10 @@ PrefabInstance:
     - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalScale.y
