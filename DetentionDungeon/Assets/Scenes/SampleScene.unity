@@ -5696,7 +5696,7 @@ MonoBehaviour:
   projectileLifetime: 3
   projectileImpactRadius: 5
   bossViewDistance: 10000
-  projectilePrefab: {fileID: 899065359}
+  projectilePrefab: {fileID: 0}
   turnSpeed: 2
 --- !u!65 &801850041
 BoxCollider:
@@ -5965,11 +5965,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1024166787}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &899065359 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-  m_PrefabInstance: {fileID: 1845686335}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &924195830 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: e2c12cc399276f34997617080b02d780, type: 3}
@@ -11234,63 +11229,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 167308946}
   m_SourcePrefab: {fileID: 100100000, guid: d7345a77f785f4041aa505b0645df651, type: 3}
---- !u!1001 &1845686335
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.26822257
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.685479
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7337523698709839115, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8940125916336549196, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
-      propertyPath: m_Name
-      value: Projectile
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6eed03a878550f04b874b0dcfc0bf1e4, type: 3}
 --- !u!4 &1850879744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5613243e699c34046bcf679855532f68, type: 3}
@@ -13150,5 +13088,4 @@ SceneRoots:
   - {fileID: 1024166787}
   - {fileID: 1180834206}
   - {fileID: 181297211}
-  - {fileID: 1845686335}
   - {fileID: 1179845109}
