@@ -7,14 +7,21 @@ TagManager:
   - Weapon
   - ScoreManager
   - Bullet
+  - Boss
+  - Key
+  - DeadlyObstacle
+  - Checkpoint
+  - Lava
+  - Bus
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
