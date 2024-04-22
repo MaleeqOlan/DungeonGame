@@ -17,6 +17,8 @@ TagManager:
   - Question1
   - Checkpoint1
   - Door
+  - Door1
+  - Door2
   layers:
   - Default
   - TransparentFX
