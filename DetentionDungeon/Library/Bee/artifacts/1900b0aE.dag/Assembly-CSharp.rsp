@@ -387,6 +387,8 @@
 "Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/NotepadProjectile.cs"
+"Assets/NotepadSpawner.cs"
 "Assets/PickupObject.cs"
 "Assets/PlayerController.cs"
 "Assets/PlayerRespawn.cs"

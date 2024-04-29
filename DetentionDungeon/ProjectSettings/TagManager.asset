@@ -19,6 +19,9 @@ TagManager:
   - Door
   - Door1
   - Door2
+  - Door3
+  - Checkpoint2
+  - Notepad
   layers:
   - Default
   - TransparentFX
