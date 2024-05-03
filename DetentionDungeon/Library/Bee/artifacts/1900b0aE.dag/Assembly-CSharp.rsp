@@ -369,11 +369,11 @@
 "Assets/AudioArea.cs"
 "Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
 "Assets/Collectible.cs"
-"Assets/DestroyObject.cs"
 "Assets/DoorScript.cs"
 "Assets/DoorScript1.cs"
 "Assets/DoorScript2.cs"
 "Assets/DoorScript3.cs"
+"Assets/EnemyPatrol.cs"
 "Assets/GroundScript.cs"
 "Assets/GunSound.cs"
 "Assets/Lava_Flowing_Shader/Scripts/ScrollingUVs_Layers.cs"
@@ -395,6 +395,10 @@
 "Assets/ProjectileController.cs"
 "Assets/RespawnPlayer.cs"
 "Assets/ShootingController.cs"
+"Assets/TutaX1/NM-Link-Placer Tool/Demo/Scripts/AgentLinkMover.cs"
+"Assets/TutaX1/NM-Link-Placer Tool/Demo/Scripts/EnemyController.cs"
+"Assets/TutaX1/NM-Link-Placer Tool/Demo/Scripts/ThirdPersonController.cs"
+"Assets/TutaX1/NM-Link-Placer Tool/NM_Link_Placer.cs"
 -langversion:9.0
 
 /deterministic
